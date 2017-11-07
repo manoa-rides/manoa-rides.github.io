@@ -2,6 +2,9 @@
 
 * [About Manoa Rides](#about-bowfolios)
 
+
+
+
 # About Manoa Rides 
 
 ## What's Manoa Carpool all about?
@@ -27,6 +30,6 @@ After creating a Manoa Carpool profile, search for Riders or Drivers in your vic
 
 Search the Manoa Carpool directory and filter individuals by interests, driving skill, distance, and classes.
 
-#### Make connections
+### Make connections
 
 Make friends while you travel.

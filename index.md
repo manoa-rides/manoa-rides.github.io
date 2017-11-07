@@ -1,3 +1,4 @@
+# THIS IS A PLACE HOLDER FILE REPLACE WITH ACTUAL manoa-rides STUFF
 # Table of contents
 
 * [About Bowfolios](#about-bowfolios)

@@ -1,1 +1,8 @@
+title: Manoa-Rides
+description: A Carpooling Solution for the UHM community
+google_analytics: 
+show_downloads: false
 theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions

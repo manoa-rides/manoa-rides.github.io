@@ -1,4 +1,5 @@
 [Check out the App](manoa-rides.meteorapp.com)
+
 [Check out our GitHub](https://github.com/manoa-rides)
 
 # Table of contents

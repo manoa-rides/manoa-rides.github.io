@@ -1,3 +1,4 @@
+[Check out our GitHub](https://github.com/manoa-rides)
 # Table of contents
 
 * [About Manoa Rides](#about-bowfolios)

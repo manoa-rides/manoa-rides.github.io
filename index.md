@@ -46,15 +46,13 @@ Make friends while you travel.
 
 # Development History
 
-The development process for BowFolios conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f16/modules/project-management/) practices. In a nutshell, development consists of a sequence of Milestones. Milestones consist of issues corresponding to 2-3 day tasks. GitHub projects are used to manage the processing of tasks during a milestone.  
-
-The following sections document the development history of BowFolios.
+The development process for Manoa-Rides
 
 ## Milestone 1: Mockup development
 
-This milestone started on December 6, 2016 and ended on January 31, 2017.
+This milestone started on November 14, 2017 and ended on November 22, 2017.
 
-The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system. To simplify things, the mockup was developed as a Meteor app. This meant that each page was a template and that FlowRouter was used to implement routing to the pages. 
+For milestone 1 the goal was to get mockups off all the page we wanted, and get an idea of what the completed application would look like.  
 
 Mockups for the following four pages were implemented during M1:
 
@@ -63,12 +61,12 @@ Mockups for the following four pages were implemented during M1:
 <img width="200px" src="images/directory.png"/>
 <img width="200px" src="images/filter.png"/>
 
-Milestone 1 was implemented as [BowFolio GitHub Milestone M1](https://github.com/bowfolios/bowfolios/milestone/1)::
+Milestone 1 was implemented as [Manoa-Rides GitHub Milestone M1](https://github.com/manoa-rides/manoa-rides/milestones)::
 
 ![](images/m1-milestone.png)
 
 
-Milestone 1 consisted of five issues, and progress was managed via the [BowFolio GitHub Project M1](https://github.com/bowfolios/bowfolios/projects/1):
+Milestone 1 consisted of nine issues, and progress was managed via the [Manoa-Rides GitHub Project M1](https://github.com/manoa-rides/manoa-rides/projects/1):
 
 ![](images/m1-project.png)
 

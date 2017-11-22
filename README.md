@@ -1,2 +1,2 @@
 # Manoa-Rides
-Go to https://venturers.github.io to see the project.
+Go to https://manoa-rides.github.io to see the project.

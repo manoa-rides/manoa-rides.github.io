@@ -37,8 +37,6 @@ Search the Manoa Carpool directory and filter individuals by interests, driving 
 
 Make friends while you travel.
 
-![](images/landing-mockup.png)
-
 ![](images/profile-mockup.png)
 
 ![](images/filterpage.png)
@@ -58,8 +56,8 @@ For milestone 1 the goal was to get mockups off all the page we wanted, and get 
 
 Mockups for the following four pages were implemented during M1:
 
-<img width="200px" src="images/landing.png"/>
-<img width="200px" src="images/profile.png"/>
+<img width="200px" src="images/schedule-mockup.png"/>
+<img width="200px" src="images/profile-mockup.png"/>
 <img width="200px" src="images/directory.png"/>
 <img width="200px" src="images/filterpage.png"/>
 

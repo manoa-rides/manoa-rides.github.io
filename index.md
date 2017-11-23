@@ -43,6 +43,8 @@ Make friends while you travel.
 
 ![](images/filterpage.png)
 
+![](images/schedule-mockup.png)
+
 
 # Development History
 

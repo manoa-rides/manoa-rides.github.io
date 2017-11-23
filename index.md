@@ -41,7 +41,7 @@ Make friends while you travel.
 
 ![](images/profile-mockup.png)
 
-![](images/filter-mockup.png)
+![](images/filterpage.png)
 
 
 # Development History

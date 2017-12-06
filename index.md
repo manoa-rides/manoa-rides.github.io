@@ -76,7 +76,44 @@ Third, cd into the app/ directory and install libraries with:
 $ meteor npm install
 ```
 
+Fourth, run the system with:
 
+```
+$ meteor npm run start
+```
+
+If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000). If you have an account on the UH test CAS server, you can login.  
+
+### Branches
+
+When creating a new branch for the project use issue-XX naming conventions. This way branches can be directly tied to the issue they correspond to. 
+
+```
+$ git checkout -b issue-XX
+```
+
+Make sure that master always has working code. 
+
+To change branches:
+
+```
+$ git checkout [issue-XX or master]
+```
+
+Make sure to:
+
+```
+$ git pull
+```
+
+frequently from the master branch. This assures that you will have the most recent working code from other people. 
+
+
+### Meteor Website
+
+To use and make a meteor app website, first create an account on the [Galaxy website](https://galaxy.meteor.com/) After creating an account it will be costly to push any website onto galaxy so it's best to work with an organization that has limited slots but will be able to push your website for free. 
+
+For more instructions, please at [E54: Test deploy to Galaxy](http://courses.ics.hawaii.edu/ics314s17/morea/deployment/experience-test-deployment.html)
 
 # Development History
 

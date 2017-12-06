@@ -2,6 +2,8 @@
 
 [Check out our GitHub](https://github.com/manoa-rides)
 
+<a href="https://github.com/manoa-rides" class="btn">Check out our GitHub</a>
+
 # Table of contents
 
 * [About Manoa Rides](#about-bowfolios)

@@ -21,8 +21,7 @@
    * [Authorization](#authorization)
    * [Configuration](#configuration)
    * [Redeploy Meteor](#redeploy-meteor)
-   * [Quality Assurance](#quality-assurance)
-     * [ESLint](#eslint)
+   * [ESLint](#eslint)
 * [Development history](#development-history)
   * [Initial Mockup Pages](#initial-mockup-pages)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
@@ -190,16 +189,13 @@ import '/imports/ui/layouts/shared';
 import '/imports/ui/layouts/user';
 import '/imports/ui/pages/directory';
 import '/imports/ui/pages/filter';
+import '/imports/ui/pages/schedule';
 import '/imports/ui/pages/landing';
-import '/imports/ui/pages/listing';
-import '/imports/ui/pages/mylistings';
 import '/imports/ui/pages/user';
-import '/imports/ui/pages/edit';
 import '/imports/ui/stylesheets/style.css';
 import '/imports/api/base';
 import '/imports/api/profile';
 import '/imports/api/interest';
-import '/imports/api/user_accepted_listings';
 ```
 
 Apart from the last line that imports style.css directly, the other lines all invoke the index.js file in the specified directory.

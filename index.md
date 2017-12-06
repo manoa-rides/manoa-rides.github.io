@@ -224,7 +224,7 @@ The application uses the [Semantic UI](http://semantic-ui.com/) CSS framework. T
 
 The Semantic UI theme files are in [app/client/lib/semantic-ui](https://github.com/ics-software-engineering/meteor-application-template/tree/master/app/client/lib/semantic-ui) directory. Because they are in the client/ directory and not the imports/ directory, they do not need to be explicitly imported to be loaded. (Meteor automatically loads all files into the client that are in the client/ directory). 
 
-Note that the user pages contain a menu fixed to the top of the page, and thus the body element needs to have padding attached to it.  However, the landing page does not have a menu, and thus no padding should be attached to the body element on that page. To accomplish this, the [router](https://github.com/uhpool/UHPool/blob/master/app/imports/startup/client/router.js) uses "triggers" to add a remove the appropriate classes from the body element when a page is visited and then left by the user. 
+Note that the user pages contain a menu fixed to the top of the page, and thus the body element needs to have padding attached to it.  However, the landing page does not have a menu, and thus no padding should be attached to the body element on that page. To accomplish this, the [router](https://github.com/manoa-rides/manoa-rides/blob/master/app/imports/startup/client/router.js) uses "triggers" to add a remove the appropriate classes from the body element when a page is visited and then left by the user. 
 
 List of some of the Semantic UI used in this project:
 -Images
@@ -241,7 +241,7 @@ For display and navigation among its four pages, the application uses [Flow Rout
 
 Routing is defined in [imports/startup/client/router.js](https://github.com/ics-software-engineering/meteor-application-template/blob/master/app/imports/startup/client/router.js).
 
-UHPool defines the following routes:
+Manoa Rides defines the following routes:
 
   * The `/` route goes to the public landing page.
   * The `/directory` route goes to the public directory page.
@@ -254,7 +254,7 @@ For authentication, the application uses the University of Hawaii CAS test serve
 
 When the application is run, the CAS configuration information must be present in a configuration file such as [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-template/blob/master/config/settings.development.json). 
 
-Anyone with a UH account can login and use UHPool to create a portfolio. The user will then create their own profile and image (and car image) to gain further access. 
+Anyone with a UH account can login and use Manoa Rides to create a portfolio. The user will then create their own profile and image (and car image) to gain further access. 
 
 ### Authorization
 

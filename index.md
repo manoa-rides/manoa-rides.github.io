@@ -270,6 +270,37 @@ To prevent people from accessing pages they are not authorized to visit, templat
 
 The application implements template-based authorization using an If_Authorized template, defined in [If_Authorized.html](https://github.com/manoa-rides/manoa-rides/blob/master/app/imports/ui/layouts/user/if-authorized.html) and [If_Authorized.js](https://github.com/manoa-rides/manoa-rides/blob/master/app/imports/ui/layouts/user/if-authorized.js).
 
+## Configuration
+
+The [config](https://github.com/bowfolios/bowfolios/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/manoa-rides/manoa-rides/blob/master/config/settings.development.json).
+
+The [.gitignore](https://github.com/manoa-rides/manoa-rides/blob/master/.gitignore) file prevents a file named settings.production.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.production.json and it will not be committed.
+
+BowFolios checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/manoa-rides/manoa-rides/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/manoa-rides/manoa-rides/blob/master/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/manoa-rides/manoa-rides/blob/master/app/private/database/initial-collection-data.json).
+
+### Redeploy Meteor
+
+Sometimes after editing fields in the profile field, or using new packages you may not be able to run the app on localhost in those cases this command sequence can help solve some errors:
+
+```
+meteor npm reset
+meteor npm install
+meteor npm run start
+```
+
+This should reset your local mongo and update your installed modules.
+
+### ESLint
+
+BowFolios includes a [.eslintrc](https://github.com/manoa-ridesmanoa-rides/manoa-rides/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+
+```
+meteor npm run lint
+```
+
+ESLint should run without generating any errors.  
+
+It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
 
 # Development History
 

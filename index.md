@@ -5,8 +5,28 @@
 # Table of contents
 
 * [About Manoa Rides](#about-bowfolios)
+* [Installation](#installation)
+  * [Branches](#branches)
+  * [Meteor Website](#meteor-website)
+* [Application design](#application-design)
+  * [Directory structure](#directory-structure)
+  * [Import conventions](#import-conventions)
+  * [Naming conventions](#naming-conventions)
+  * [Data model](#data-model)
+  * [CSS](#css)
+  * [Routing](#routing)
+  * [Authentication](#authentication)
+  * [Authorization](#authorization)
+  * [Configuration](#configuration)
+  * [Redeploy Meteor](#redeploy-meteor)
+  * [Quality Assurance](#quality-assurance)
+    * [ESLint](#eslint)
+  * [Survey](#survey)
 * [Development history](#development-history)
+  * [Initial Mockup Pages](#initial-mockup-pages)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
+  * [Milestone 2](#milestone-2)
+
 
 # About Manoa Rides 
 
@@ -42,6 +62,20 @@ Make friends while you travel.
 ![](images/filterpage.png)
 
 ![](images/schedule-mockup.png)
+
+
+# Installation
+
+First, [install Meteor](https://www.meteor.com/install).
+
+Second, [download a copy of Manoa-Rides](https://github.com/manoa-rides/manoa-rides/archive/master.zip), or clone it using git.
+  
+Third, cd into the app/ directory and install libraries with:
+
+```
+$ meteor npm install
+```
+
 
 
 # Development History

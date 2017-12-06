@@ -4,28 +4,30 @@
 
 # Table of contents
 
-* [About Manoa Rides](#about-bowfolios)
-* [Installation](#installation)
+* [Overview of Manoa Rides](#about-manoa-rides)
+* [User Guide](#user-guide)
+* [Developer Guide](#user-guide)
+ * [Installation](#installation)
   * [Branches](#branches)
   * [Meteor Website](#meteor-website)
-* [Application design](#application-design)
-  * [Directory structure](#directory-structure)
-  * [Import conventions](#import-conventions)
-  * [Naming conventions](#naming-conventions)
-  * [Data model](#data-model)
-  * [CSS](#css)
-  * [Routing](#routing)
-  * [Authentication](#authentication)
-  * [Authorization](#authorization)
-  * [Configuration](#configuration)
-  * [Redeploy Meteor](#redeploy-meteor)
-  * [Quality Assurance](#quality-assurance)
-    * [ESLint](#eslint)
+ * [Application design](#application-design)
+   * [Directory structure](#directory-structure)
+   * [Import conventions](#import-conventions)
+   * [Naming conventions](#naming-conventions)
+   * [Data model](#data-model)
+   * [CSS](#css)
+   * [Routing](#routing)
+   * [Authentication](#authentication)
+   * [Authorization](#authorization)
+   * [Configuration](#configuration)
+   * [Redeploy Meteor](#redeploy-meteor)
+   * [Quality Assurance](#quality-assurance)
+     * [ESLint](#eslint)
 * [Development history](#development-history)
   * [Initial Mockup Pages](#initial-mockup-pages)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
   * [Milestone 2](#milestone-2)
-  * [User Study](#initial-user-study)
+* [Community Feedback](#community-feedback)
 
 
 # About Manoa Rides 
@@ -83,6 +85,9 @@ $ meteor npm run start
 ```
 
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000). If you have an account on the UH test CAS server, you can login.  
+
+# User Guide
+
 
 ### Branches
 

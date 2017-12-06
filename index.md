@@ -222,6 +222,54 @@ This system adopts the following naming conventions:
 
 The BowFolios data model is implemented by two Javascript classes: [ProfileCollection](https://github.com/manoa-rides/manoa-rides/tree/master/app/imports/api/profile) this class encapsulates a MongoDB collection with the same name and export a single variable Profiles that provides access to that collection. 
 
+### CSS
+
+The application uses the [Semantic UI](http://semantic-ui.com/) CSS framework. To learn more about the Semantic UI theme integration with Meteor, see [Semantic-UI-Meteor](https://github.com/Semantic-Org/Semantic-UI-Meteor).
+
+The Semantic UI theme files are in [app/client/lib/semantic-ui](https://github.com/ics-software-engineering/meteor-application-template/tree/master/app/client/lib/semantic-ui) directory. Because they are in the client/ directory and not the imports/ directory, they do not need to be explicitly imported to be loaded. (Meteor automatically loads all files into the client that are in the client/ directory). 
+
+Note that the user pages contain a menu fixed to the top of the page, and thus the body element needs to have padding attached to it.  However, the landing page does not have a menu, and thus no padding should be attached to the body element on that page. To accomplish this, the [router](https://github.com/uhpool/UHPool/blob/master/app/imports/startup/client/router.js) uses "triggers" to add a remove the appropriate classes from the body element when a page is visited and then left by the user. 
+
+List of some of the Semantic UI used in this project:
+-Images
+-Accordion
+-Item
+-Grid
+-Container
+-Table
+
+
+### Routing
+
+For display and navigation among its four pages, the application uses [Flow Router](https://github.com/kadirahq/flow-router).
+
+Routing is defined in [imports/startup/client/router.js](https://github.com/ics-software-engineering/meteor-application-template/blob/master/app/imports/startup/client/router.js).
+
+UHPool defines the following routes:
+
+  * The `/` route goes to the public landing page.
+  * The `/directory` route goes to the public directory page.
+  * The `/<user>/profile` route goes to the profile page associated with `<user>`, which is the UH account name.
+  * The `/<user>/filter` route goes to the filter page associated with `<user>`, which is the UH account name.
+
+### Authentication
+
+For authentication, the application uses the University of Hawaii CAS test server, and follows the approach shown in [meteor-example-uh-cas](http://ics-software-engineering.github.io/meteor-example-uh-cas/).
+
+When the application is run, the CAS configuration information must be present in a configuration file such as [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-template/blob/master/config/settings.development.json). 
+
+Anyone with a UH account can login and use UHPool to create a portfolio. The user will then create their own profile and image (and car image) to gain further access. 
+
+### Authorization
+
+The landing and directory pages are public; anyone can access those pages.
+
+The profile and filter pages require authorization: you must be logged in (i.e. authenticated) through the UH test CAS server, and the authenticated username returned by CAS must match the username specified in the URL.  So, for example, only the authenticated user `johnson` can access the pages `http://localhost:3000/johnson/profile` and `http://localhost:3000/johnson/filter`.
+
+To prevent people from accessing pages they are not authorized to visit, template-based authorization is used following the recommendations in [Implementing Auth Logic and Permissions](https://kadira.io/academy/meteor-routing-guide/content/implementing-auth-logic-and-permissions). 
+
+The application implements template-based authorization using an If_Authorized template, defined in [If_Authorized.html](https://github.com/manoa-rides/manoa-rides/blob/master/app/imports/ui/layouts/user/if-authorized.html) and [If_Authorized.js](https://github.com/manoa-rides/manoa-rides/blob/master/app/imports/ui/layouts/user/if-authorized.js).
+
 
 # Development History
 

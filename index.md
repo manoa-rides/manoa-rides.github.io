@@ -21,11 +21,11 @@
   * [Redeploy Meteor](#redeploy-meteor)
   * [Quality Assurance](#quality-assurance)
     * [ESLint](#eslint)
-  * [Survey](#survey)
 * [Development history](#development-history)
   * [Initial Mockup Pages](#initial-mockup-pages)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
   * [Milestone 2](#milestone-2)
+  * [User Study](#initial-user-study)
 
 
 # About Manoa Rides 
@@ -146,3 +146,7 @@ Each issue was implemented in its own branch, and merged into master when comple
 ![](images/m1-branch-graph.png)
 
 Milestone 2 will focus on the back-end design to facilitate meaningful interaction between drivers and riders of Manoa. Integration of Google Calendars into our own application as well as long term scheduling between users is our main focus for features in Milestone 2. Milestone 2 can be found via [Manoa-Rides Github Project M2](https://github.com/manoa-rides/manoa-rides/projects/2)
+
+
+## Initial User Study
+

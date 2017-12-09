@@ -1,3 +1,5 @@
+<a href="http://LandingPageURL.com"><img class="ui large center floated image" src="../images/code_quality.png"></a>
+
 View the [App](https://manoa-rides.meteorapp.com) live
 
 Check out our [GitHub](https://github.com/manoa-rides)

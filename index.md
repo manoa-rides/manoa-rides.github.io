@@ -69,7 +69,7 @@ Make friends while you travel.
 
 First, [install Meteor](https://www.meteor.com/install).
 
-Second, [download a copy of Manoa-Rides](https://github.com/manoa-rides/manoa-rides/archive/master.zip), or clone it using git.
+Second, [download a copy of Manoa-Rides](https://github.com/manoa-rides/manoa-rides/archive/master.zip), or clone the [repository](https://github.com/manoa-rides/manoa-rides/) using git.
   
 Third, cd into the app/ directory and install libraries with:
 

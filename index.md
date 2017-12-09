@@ -1,4 +1,5 @@
-View the live [App](https://manoa-rides.meteorapp.com) and Check out our [GitHub](https://github.com/manoa-rides)
+View the live [App](https://manoa-rides.meteorapp.com) 
+Check out our [GitHub](https://github.com/manoa-rides)
  
    
 # Table of contents

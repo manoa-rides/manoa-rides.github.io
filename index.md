@@ -1,7 +1,7 @@
 [Check out the App](https://manoa-rides.meteorapp.com)
 
 [Check out our GitHub](https://github.com/manoa-rides)
-
+   
 # Table of contents
 
 * [Overview of Manoa Rides](#about-manoa-rides)

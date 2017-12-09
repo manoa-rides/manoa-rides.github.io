@@ -1,4 +1,6 @@
-<a href="http://LandingPageURL.com"><img class="ui large center floated image" src="../images/code_quality.png"></a>
+<a href="https://github.com/manoa-rides/manoa-rides"><img class="ui small left floated image" src="https://image.flaticon.com/icons/png/512/25/25231.png"></a>
+
+<a href="https://manoa-rides.meteorapp.com"><img class="ui small right floated image" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Meteor-logo.png"></a>
 
 View the [App](https://manoa-rides.meteorapp.com) live
 

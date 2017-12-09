@@ -1,6 +1,6 @@
-[Check out the App](https://manoa-rides.meteorapp.com)
+View the [App](https://manoa-rides.meteorapp.com) live
 
-[Check out our GitHub](https://github.com/manoa-rides)
+Check out our [GitHub](https://github.com/manoa-rides)
    
 # Table of contents
 

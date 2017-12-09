@@ -1,10 +1,6 @@
-<a href="https://github.com/manoa-rides/manoa-rides"><img class="ui small left floated image" src="http://www.iconninja.com/files/989/250/498/hub-git-github-icon.png"></a>
+<a href="https://github.com/manoa-rides/manoa-rides"><img class="ui small left floated image" src="http://www.iconninja.com/files/989/250/498/hub-git-github-icon.png"></a> Check out our [GitHub](https://github.com/manoa-rides)
 
-<a href="https://manoa-rides.meteorapp.com"><img class="ui small right floated image" src="https://jmlv.gallerycdn.vsassets.io/extensions/jmlv/meteorsnippets/0.1.3/1474455339746/Microsoft.VisualStudio.Services.Icons.Default"></a>
-
-View the [App](https://manoa-rides.meteorapp.com) live
-
-Check out our [GitHub](https://github.com/manoa-rides)
+<a href="https://manoa-rides.meteorapp.com"><img class="ui small right floated image" src="https://jmlv.gallerycdn.vsassets.io/extensions/jmlv/meteorsnippets/0.1.3/1474455339746/Microsoft.VisualStudio.Services.Icons.Default"></a> View the live [App](https://manoa-rides.meteorapp.com)
    
 # Table of contents
 

@@ -315,9 +315,13 @@ For milestone 1 the goal was to get mockups off all the page we wanted, and get 
 
 Mockups for the following four pages were implemented during M1:
 
+### Schedule Mockup
 <img width="200px" src="images/schedule-mockup.png"/>
+### Profile Mockup
 <img width="200px" src="images/profile-mockup.png"/>
+### Directory Mockup
 <img width="200px" src="images/directory.png"/>
+### Filter Mockup
 <img width="200px" src="images/filterpage.png"/>
 
 Milestone 1 was implemented as [Manoa-Rides GitHub Milestone M1](https://github.com/manoa-rides/manoa-rides/milestones):
@@ -342,10 +346,13 @@ This milestone started on November 23, 2017 and ended on December 13, 2017.
 For Milestone 2 the goal was to take the page that we created in Milestone 1 and implement the fundamental functionality.
 
 Four pages were implemented during M2:
-
+### Implemented Schedule Page 
 <img width="200px" src="images/schedule-m2.png"/>
+### Implemented Profile Page 
 <img width="200px" src="images/profile-m2.png"/>
+### Implemented Filter Page 
 <img width="200px" src="images/filterpage-m2.png"/>
+### Implemented Landing Page 
 <img width="200px" src="images/landing-m2.png"/>
 
 Milestone 2 was implemented as [Manoa-Rides GitHub Milestone M2](https://github.com/manoa-rides/manoa-rides/milestone/2):

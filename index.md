@@ -335,6 +335,31 @@ Each issue was implemented in its own branch, and merged into master when comple
 
 Milestone 2 will focus on the back-end design to facilitate meaningful interaction between drivers and riders of Manoa. Integration of Google Calendars into our own application as well as long term scheduling between users is our main focus for features in Milestone 2. Milestone 2 can be found via [Manoa-Rides Github Project M2](https://github.com/manoa-rides/manoa-rides/projects/2)
 
+## Milestone 2: Implementing and Improving Functionality
+
+This milestone started on November 23, 2017 and ended on December 13, 2017.
+
+For Milestone 2 the goal was to take the page that we created in Milestone 1 and implement the fundamental functionality.
+
+Four pages were implemented during M2:
+
+<img width="200px" src="images/schedule-m2.png"/>
+<img width="200px" src="images/profile-m2.png"/>
+<img width="200px" src="images/filterpage-m2.png"/>
+<img width="200px" src="images/landing-m2.png"/>
+
+Milestone 2 was implemented as [Manoa-Rides GitHub Milestone M2](https://github.com/manoa-rides/manoa-rides/milestone/2):
+
+![](images/m2-milestone.png)
+
+
+Milestone 1 consisted of nine issues, and progress was managed via the [Manoa-Rides GitHub Project M2]https://github.com/manoa-rides/manoa-rides/projects/2):
+
+![](images/m2-project.png)
+
+Each issue was implemented in its own branch (unless it took less than 20 minutes to complete), and merged into master when completed:
+
+![](images/m2-branch-graph.png)
 
 ## Community Feedback
 

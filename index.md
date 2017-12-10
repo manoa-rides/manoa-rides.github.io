@@ -146,7 +146,7 @@ client/
 imports/
   api/           # Define collection processing code (client + server side)
     base/        # BaseCollection is an abstract superclass of all RadGrad data model entities.
-    interest/    # Represents a specific interest, such as "Software Engineering".
+    eventdata/   # Represents specific eventdata.
     profile/     # Profiles provide portfolio data for a user.
     user_accepted_listings/
   startup/       # Define code to run when system starts up (client-only, server-only)

@@ -221,7 +221,7 @@ This system adopts the following naming conventions:
 
 ### Data model
 
-The BowFolios data model is implemented by two Javascript classes: [ProfileCollection](https://github.com/manoa-rides/manoa-rides/tree/master/app/imports/api/profile) this class encapsulates a MongoDB collection with the same name and export a single variable Profiles that provides access to that collection. 
+The Manoa-Rdies data model is implemented by mainly using a Javascript class: [ProfileCollection](https://github.com/manoa-rides/manoa-rides/tree/master/app/imports/api/profile) this class encapsulates a MongoDB collection with the same name and export a single variable Profiles that provides access to that collection. 
 
 ### CSS
 

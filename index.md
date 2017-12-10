@@ -353,7 +353,7 @@ Milestone 2 was implemented as [Manoa-Rides GitHub Milestone M2](https://github.
 ![](images/m2-milestone.png)
 
 
-Milestone 1 consisted of nine issues, and progress was managed via the [Manoa-Rides GitHub Project M2]https://github.com/manoa-rides/manoa-rides/projects/2):
+Milestone 1 consisted of nine issues, and progress was managed via the [Manoa-Rides GitHub Project M2](https://github.com/manoa-rides/manoa-rides/projects/2):
 
 ![](images/m2-project.png)
 

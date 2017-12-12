@@ -382,6 +382,6 @@ After asking some of our friends, all outside of the computer science field to t
 2.	Six out of the ten people asked used their own vehicle to drive to school. The other four used the bus. 
 3.	Most people both departed to school and returned home on a very regular weekly schedule. 
 4.	Motivations for potentially using the carpooling system were, in order, reducing transit time, reducing transit cost, and reducing pollution. 
-5.	When asked how they would carpool if they hadn’t known about out app most said asking around. 
-6.	When asked if they would use our app for carpooling all of them said they would use our application only if it had a significant number of users and that finding those individuals was easy. 
-7.	They felt there was more incentive to be a rider than a driver. When we asked what kind of incentive would have to be put in place for the drivers most indicated that it would have to be monetary, not necessarily enough to produce a profit, but rather to offset gas and parking costs. 
+5.	When asked how they would carpool if they hadn’t known about app most said asking around. 
+6.	When asked if they would use our app for carpooling all of them said they would use our application only if it had a significant number of users. Their main concern was actually finding a viable rider or driver. 
+7.	Overall, the people who drove to school felt there was more incentive to be a rider than a driver. Most indicated that some sort of monetary compenstation was appealing. Though a couple drivers mentioned that they didn't want to make profit, but rather offset a portion of gas and parking costs. 

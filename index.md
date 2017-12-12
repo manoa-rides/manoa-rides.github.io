@@ -59,12 +59,6 @@ Search the Manoa Carpool directory and filter individuals by interests, driving 
 
 Make friends while you travel.
 
-![](images/profile-mockup.png)
-
-![](images/filterpage.png)
-
-![](images/schedule-mockup.png)
-
 
 # Installation
 

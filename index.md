@@ -317,19 +317,19 @@ Mockups for the following four pages were implemented during M1:
 
 ### Schedule Mockup
 
-<img width="300px" src="images/schedule-mockup.png"/>
+<img width="400px" src="images/schedule-mockup.png"/>
 
 ### Profile Mockup
 
-<img width="300px" src="images/profile-mockup.png"/>
+<img width="400px" src="images/profile-mockup.png"/>
 
 ### Landing Mockup
 
-<img width="300px" src="https://i.imgur.com/GTCJr46.png"/>
+<img width="400px" src="https://i.imgur.com/GTCJr46.png"/>
 
 ### Filter Mockup
 
-<img width="300px" src="images/filterpage.png"/>
+<img width="400px" src="images/filterpage.png"/>
 
 Milestone 1 was implemented as [Manoa-Rides GitHub Milestone M1](https://github.com/manoa-rides/manoa-rides/milestones):
 

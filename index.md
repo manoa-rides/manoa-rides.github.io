@@ -347,19 +347,19 @@ Four pages were implemented during M2:
 
 ### Implemented Landing Page 
 
-<img width="200px" src="https://i.imgur.com/0EDOxGI.png"/>
+<img width="400px" src="https://i.imgur.com/0EDOxGI.png"/>
 
 ### Implemented Schedule Page 
 
-<img width="200px" src="images/schedule-m2.png"/>
+<img width="400px" src="images/schedule-m2.png"/>
 
 ### Implemented Profile Page
 
-<img width="200px" src="images/profile-m2.png"/>
+<img width="400px" src="images/profile-m2.png"/>
 
 ### Implemented Filter Page 
 
-<img width="200px" src="images/filterpage-m2.png"/>
+<img width="400px" src="images/filterpage-m2.png"/>
 
 
 Milestone 2 was implemented as [Manoa-Rides GitHub Milestone M2](https://github.com/manoa-rides/manoa-rides/milestone/2):

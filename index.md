@@ -26,7 +26,7 @@ Check out our [GitHub](https://github.com/manoa-rides)
 * [Development history](#development-history)
   * [Initial Mockup Pages](#initial-mockup-pages)
   * [Milestone 1: Mockup development](#milestone-1-mockup-development)
-  * [Milestone 2](#milestone-2)
+  * [Milestone 2: Implementation](#milestone-2)
 * [Community Feedback](#community-feedback)
 
 

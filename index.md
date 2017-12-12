@@ -352,6 +352,10 @@ For Milestone 2 the goal was to take the page that we created in Milestone 1 and
 
 Four pages were implemented during M2:
 
+### Implemented Landing Page 
+
+<img width="200px" src="images/landing-m2.png"/>
+
 ### Implemented Schedule Page 
 
 <img width="200px" src="images/schedule-m2.png"/>
@@ -364,9 +368,6 @@ Four pages were implemented during M2:
 
 <img width="200px" src="images/filterpage-m2.png"/>
 
-### Implemented Landing Page 
-
-<img width="200px" src="images/landing-m2.png"/>
 
 Milestone 2 was implemented as [Manoa-Rides GitHub Milestone M2](https://github.com/manoa-rides/manoa-rides/milestone/2):
 

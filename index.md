@@ -323,7 +323,7 @@ Mockups for the following four pages were implemented during M1:
 
 <img width="200px" src="images/profile-mockup.png"/>
 
-### Directory Mockup
+### Landing Mockup
 
 <img width="200px" src="images/directory.png"/>
 

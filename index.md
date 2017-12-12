@@ -96,7 +96,7 @@ On the Scheduling page,
 
 # Developer guide 
 
-### Branches
+## Branches
 
 When creating a new branch for the project use issue-XX naming conventions. This way branches can be directly tied to the issue they correspond to. 
 
@@ -121,7 +121,7 @@ $ git pull
 frequently from the master branch. This assures that you will have the most recent working code from other people. 
 
 
-### Meteor Website
+## Meteor Website
 
 To use and make a meteor app website, first create an account on the [Galaxy website](https://galaxy.meteor.com/) After creating an account it will be costly to push any website onto galaxy so it's best to work with an organization that has limited slots but will be able to push your website for free. 
 
@@ -174,7 +174,7 @@ server/
    main.js       # import all the server-side js files.
 ```
 
-### Import conventions
+## Import conventions
 
 This system adheres to the Meteor 1.4 guideline of putting all application code in the imports/ directory, and using client/main.js and server/main.js to import the code appropriate for the client and server in an appropriate order.
 
@@ -209,7 +209,7 @@ We use this approach to make it simpler to understand what code is loaded and in
 
 Note that this two-level import structure ensures that all code and templates are loaded, but does not ensure that the symbols needed in each file are accessible.  So, for example, a symbol bound to a collection still needs to be imported into any file that references it. 
  
-### Naming conventions
+## Naming conventions
 
 This system adopts the following naming conventions:
 
@@ -219,11 +219,11 @@ This system adopts the following naming conventions:
   * Templates representing pages are capitalized, with words separated by underscores. Example: Directory_Page. The files for this template are lower case, with hyphens rather than underscore. Example: directory-page.html, directory-page.js.
   * Routes to pages are named the same as their corresponding page. Example: Directory_Page.
 
-### Data model
+## Data model
 
 The Manoa-Rdies data model is implemented by mainly using a Javascript class: [ProfileCollection](https://github.com/manoa-rides/manoa-rides/tree/master/app/imports/api/profile) this class encapsulates a MongoDB collection with the same name and export a single variable Profiles that provides access to that collection. 
 
-### CSS
+## CSS
 
 The application uses the [Semantic UI](http://semantic-ui.com/) CSS framework. To learn more about the Semantic UI theme integration with Meteor, see [Semantic-UI-Meteor](https://github.com/Semantic-Org/Semantic-UI-Meteor).
 
@@ -239,8 +239,7 @@ List of some of the Semantic UI used in this project:
 -Container
 -Table
 
-
-### Routing
+## Routing
 
 For display and navigation among its four pages, the application uses [Flow Router](https://github.com/kadirahq/flow-router).
 
@@ -253,7 +252,7 @@ Manoa Rides defines the following routes:
   * The `/<user>/profile` route goes to the profile page associated with `<user>`, which is the UH account name.
   * The `/<user>/filter` route goes to the filter page associated with `<user>`, which is the UH account name.
 
-### Authentication
+## Authentication
 
 For authentication, the application uses the University of Hawaii CAS test server, and follows the approach shown in [meteor-example-uh-cas](http://ics-software-engineering.github.io/meteor-example-uh-cas/).
 
@@ -261,7 +260,7 @@ When the application is run, the CAS configuration information must be present i
 
 Anyone with a UH account can login and use Manoa Rides to create a portfolio. The user will then create their own profile and image (and car image) to gain further access. 
 
-### Authorization
+## Authorization
 
 The landing and directory pages are public; anyone can access those pages.
 
@@ -279,7 +278,7 @@ The [.gitignore](https://github.com/manoa-rides/manoa-rides/blob/master/.gitigno
 
 BowFolios checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/manoa-rides/manoa-rides/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/manoa-rides/manoa-rides/blob/master/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/manoa-rides/manoa-rides/blob/master/app/private/database/initial-collection-data.json).
 
-### Redeploy Meteor
+## Redeploy Meteor
 
 Sometimes after editing fields in the profile field, or using new packages you may not be able to run the app on localhost in those cases this command sequence can help solve some errors:
 
@@ -291,7 +290,7 @@ meteor npm run start
 
 This should reset your local mongo and update your installed modules.
 
-### ESLint
+## ESLint
 
 BowFolios includes a [.eslintrc](https://github.com/manoa-ridesmanoa-rides/manoa-rides/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
@@ -382,7 +381,7 @@ Each issue was implemented in its own branch (unless it took less than 20 minute
 
 ![](images/m2-branch-graph.png)
 
-## Community Feedback
+# Community Feedback
 
 After asking some of our friends, all outside of the computer science field to try out our app we came away with seven main points. 
 1.	All of them were not aware the UH had a carpooling system or application in place. 

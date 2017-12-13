@@ -312,6 +312,10 @@ For milestone 1 the goal was to get mockups off all the page we wanted, and get 
 
 Mockups for the following four pages were implemented during M1:
 
+### Landing Mockup
+
+<img width="400px" src="https://i.imgur.com/GTCJr46.png"/>
+
 ### Schedule Mockup
 
 <img width="400px" src="images/schedule-mockup.png"/>
@@ -319,10 +323,6 @@ Mockups for the following four pages were implemented during M1:
 ### Profile Mockup
 
 <img width="400px" src="images/profile-mockup.png"/>
-
-### Landing Mockup
-
-<img width="400px" src="https://i.imgur.com/GTCJr46.png"/>
 
 ### Filter Mockup
 

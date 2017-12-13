@@ -333,7 +333,7 @@ Milestone 1 was implemented as [Manoa-Rides GitHub Milestone M1](https://github.
 ![](images/m1-milestone.png)
 
 
-Milestone 1 consisted of nine issues, and progress was managed via the [Manoa-Rides GitHub Project M1](https://github.com/manoa-rides/manoa-rides/projects/1):
+Milestone 1 consisted of 15 issues, and progress was managed via the [Manoa-Rides GitHub Project M1](https://github.com/manoa-rides/manoa-rides/projects/1):
 
 ![](images/m1-project.png)
 
@@ -366,17 +366,14 @@ Four pages were implemented during M2:
 <img width="400px" src="images/filterpage-m2.png"/>
 
 
-Milestone 2 was implemented as [Manoa-Rides GitHub Milestone M2](https://github.com/manoa-rides/manoa-rides/milestone/2):
+Milestone 2 was implemented as [Manoa-Rides GitHub Milestone M2](https://github.com/manoa-rides/manoa-rides/milestone/2)
 
-![](images/m2-milestone.png)
 
-Milestone 2 consisted of 23 issues, and progress was managed via the [Manoa-Rides GitHub Project M2](https://github.com/manoa-rides/manoa-rides/projects/2):
+Milestone 2 consisted of 23 issues, and progress was managed via the [Manoa-Rides GitHub Project M2](https://github.com/manoa-rides/manoa-rides/projects/2)
 
-![](images/m2-project.png)
 
-Each issue was implemented in its own branch (unless it took less than 20 minutes to complete), and merged into master when completed:
+Each issue was implemented in its own branch (unless it took less than 20 minutes to complete), and merged into master when completed
 
-![](images/m2-branch-graph.png)
 
 # Community Feedback
 

@@ -82,6 +82,8 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 # User Guide
 
+To sign up for a new account or login to an exisiting account click on the login button and enter your University of Hawaii login information.
+
 <img width="800px" src="https://i.imgur.com/0EDOxGI.png"/>
 
 After logging in, you will be directed to Create/Edit profile page. At the Profile Page you can specify things you full name, whether you are posting as a rider to a driver, a picture of yourself, the capacity of your car, a picture of your car, a short biograph, and the zip code in which you live.  To edit this page in the future simply click on the profile tab. 

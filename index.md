@@ -82,6 +82,8 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 # User Guide
 
+<img width="400px" src="https://i.imgur.com/0EDOxGI.png"/>
+
 After logging in, you will be directed to Create/Edit profile page. At the Profile Page you can specify things you full name, whether you are posting as a rider to a driver, a picture of yourself, the capacity of your car, a picture of your car, a short biograph, and the zip code in which you live.  To edit this page in the future simply click on the profile tab. 
 
 To search for Drivers or Riders click on the Drivers or Riders tab. At the Search for Drivers or Riders page you can search for Drivers or Riders and filter based on time they commute, their zip code, and if they are a driver the number of seats they have in their car. 

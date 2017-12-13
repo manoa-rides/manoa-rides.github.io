@@ -369,7 +369,6 @@ Four pages were implemented during M2:
 Milestone 2 was implemented as [Manoa-Rides GitHub Milestone M2](https://github.com/manoa-rides/manoa-rides/milestone/2):
 
 ![](images/m2-milestone.png)
-https://i.imgur.com/0EDOxGI.png
 
 Milestone 2 consisted of 23 issues, and progress was managed via the [Manoa-Rides GitHub Project M2](https://github.com/manoa-rides/manoa-rides/projects/2):
 

@@ -365,9 +365,13 @@ Five pages were implemented during M2:
 
 <img width="400px" src="images/profile-page-m2.png"/>
 
-### Implemented Filter Page
+### Implemented Filter Page For Drivers 
 
-<img width="400px" src="images/filterpage-m2.png"/>
+<img width="400px" src="https://i.imgur.com/6KnoAsZ.png"/>
+
+### Implemented Filter Page For Riders
+
+<img width="400px" src="https://i.imgur.com/FNRrEJp.png"/>
 
 
 Milestone 2 was implemented as [Manoa-Rides GitHub Milestone M2](https://github.com/manoa-rides/manoa-rides/milestone/2)

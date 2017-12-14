@@ -105,7 +105,7 @@ You can search for Drivers and filter based on time they commute, their zip code
 
 You can search for Riders and filter based on time they commute, their zip code.
 
-<img width="400px" src="https://i.imgur.com/6KnoAsZ.png"/>
+<img width="800px" src="https://i.imgur.com/6KnoAsZ.png"/>
 
 
 # Developer guide

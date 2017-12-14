@@ -32,8 +32,15 @@ Check out our [GitHub](https://github.com/manoa-rides/manoa-rides/)
 
 # Overview of Manoa Rides
 
-Manoa Rides is a carpooling application for the University of Hawaii community. Manoa Rides allows members of the University of Hawaii find both riders in search of a driver, and drivers in search of a rider and create their own carpooling solution.
-Carpooling solves two problems, driving a personal vehicle is expensive, parking is rare, and public transport is slow. With Manoa Rides both drivers can be compensated and riders can get to their destinations more conveniently. On top of that with fewer cars clogging the roads and the HOV lane, we all get there faster and you can make friends with other in the UH community while you travel.
+Manoa Rides is a carpooling application for the University of Hawaii community. Manoa Rides enables members of the University of Hawaii to tp pair drivers in search for riders, or riders in search of a driver, and create their own carpooling solutions.
+
+Carpooling solves two problems, many people have difficult getting to and from campus and others who do drive would simply enjoy the convinence of carpooling benefits such as parking, HOV lanes, or maybe a snack from a gracious passenger.
+
+Manoa Rides allows drivers and riders to easily find one another based off of proximity and when they would like to head to or from school. This is a completely free service and we encourage the users to negotiate with one another as to what a fair compensation for the drivers might be as they would be going out of their ways to pick up a passenger or two. Some drivers may be more than happy to do so for free, while others may ask for a few bucks for gas money, a small snack, or even a funny joke! 
+
+By limiting this service to members of the UH community every rider or driver is accountable and known—a UH email address is required to create an account. This exclusivity makes the expierence more trustable and safe for users. 
+
+Summarily, Manoa Rides aims to provide an organic and safe way to make the regimented process of getting to and from class easier for those within our community. We hope you find it useful! 
 
 # User Guide
 
@@ -41,11 +48,11 @@ To sign up for a new account or login to an existing account click on the login 
 
 <img width="800px" src="https://i.imgur.com/0EDOxGI.png"/>
 
-After logging in, you will be directed to Create/Edit profile page. At the Profile Page you can specify things like your full name, whether you are posting as a rider to a driver, a picture of yourself, the capacity of your car, a picture of your car, a short bio, and the zip code in which you live.  To edit this page in the future simply click on the profile tab.
+After logging in, you will be directed to Create/Edit profile page. At the Profile Page you can specify things like your full name, whether you are posting as a rider to a driver, a picture of yourself, the capacity of your car, a picture of your car, a short bio, and the zip code in which you live. To edit this page in the future simply click on the profile tab.
 
 <img width="800px" src="images/profile-page-m2.png"/>
 
-To upload the times you want to go and come from the University of Hawaii, you can access the schedule page and set your weekly schedule so other drivers/riders can connect with you.
+To upload the times you want to go and come from the University of Hawaii, you can access the schedule page and set your weekly schedule so other Drivers/Riders can connect with you.
 
 <img width="800px" src="images/schedule-page-m2.png"/>
 
@@ -58,7 +65,7 @@ You can search for Drivers and filter based on time they commute, their zip code
 
 <img width="800px" src="https://i.imgur.com/6KnoAsZ.png"/>
 
-You can search for Riders and filter based on time they commute, their zip code.
+You can search for Riders and filter based on their commute times and their zip codes.
 
 <img width="800px" src="https://i.imgur.com/FNRrEJp.png"/>
 
@@ -370,7 +377,7 @@ Milestone 2 was implemented as [Manoa-Rides GitHub Milestone M2](https://github.
 Milestone 2 consisted of 23 issues, and progress was managed via the [Manoa-Rides GitHub Project M2](https://github.com/manoa-rides/manoa-rides/projects/2)
 
 
-Each issue was implemented in its own branch (unless it took less than 20 minutes to complete), and merged into master when completed
+Each issue was implemented in its own branch (unless it took less than 20 minutes to complete or was done directly through the mLab Mongo database), and merged into master when completed.
 
 
 # Community Feedback

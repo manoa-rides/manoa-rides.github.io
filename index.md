@@ -5,7 +5,7 @@ Check out our [GitHub](https://github.com/manoa-rides/manoa-rides/)
 
 # Table of contents
 
-* [Overview of Manoa Rides](#about-manoa-rides)
+* [Overview of Manoa Rides](#overview-of-manoa-rides)
 * [User Guide](#user-guide)
 * [Installation](#installation)
 * [Developer Guide](#user-guide)

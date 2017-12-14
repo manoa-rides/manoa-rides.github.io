@@ -1,8 +1,8 @@
-View the live [App](https://manoa-rides.meteorapp.com) 
+View the live [App](https://manoa-rides.meteorapp.com)
 
 Check out our [GitHub](https://github.com/manoa-rides/manoa-rides/)
- 
-   
+
+
 # Table of contents
 
 * [Overview of Manoa Rides](#about-manoa-rides)
@@ -30,7 +30,7 @@ Check out our [GitHub](https://github.com/manoa-rides/manoa-rides/)
 * [Community Feedback](#community-feedback)
 
 
-# About Manoa Rides 
+# About Manoa Rides
 
 ## What's Manoa Carpool all about?
 ### Carpooling solves two problems
@@ -65,7 +65,7 @@ Make friends while you travel.
 First, [install Meteor](https://www.meteor.com/install).
 
 Second, [download a copy of Manoa-Rides](https://github.com/manoa-rides/manoa-rides/archive/master.zip), or clone the [repository](https://github.com/manoa-rides/manoa-rides/) using git.
-  
+
 Third, cd into the app/ directory and install libraries with:
 
 ```
@@ -86,23 +86,23 @@ To sign up for a new account or login to an exisiting account click on the login
 
 <img width="800px" src="https://i.imgur.com/0EDOxGI.png"/>
 
-After logging in, you will be directed to Create/Edit profile page. At the Profile Page you can specify things you full name, whether you are posting as a rider to a driver, a picture of yourself, the capacity of your car, a picture of your car, a short biograph, and the zip code in which you live.  To edit this page in the future simply click on the profile tab. 
+After logging in, you will be directed to Create/Edit profile page. At the Profile Page you can specify things you full name, whether you are posting as a rider to a driver, a picture of yourself, the capacity of your car, a picture of your car, a short biograph, and the zip code in which you live.  To edit this page in the future simply click on the profile tab.
 
-To search for Drivers or Riders click on the Drivers or Riders tab. At the Search for Drivers or Riders page you can search for Drivers or Riders and filter based on time they commute, their zip code, and if they are a driver the number of seats they have in their car. 
+To search for Drivers or Riders click on the Drivers or Riders tab. At the Search for Drivers or Riders page you can search for Drivers or Riders and filter based on time they commute, their zip code, and if they are a driver the number of seats they have in their car.
 
 On the Scheduling page,
 
-# Developer guide 
+# Developer guide
 
 ## Branches
 
-When creating a new branch for the project use issue-XX naming conventions. This way branches can be directly tied to the issue they correspond to. 
+When creating a new branch for the project use issue-XX naming conventions. This way branches can be directly tied to the issue they correspond to.
 
 ```
 $ git checkout -b issue-XX
 ```
 
-Make sure that master always has working code. 
+Make sure that master always has working code.
 
 To change branches:
 
@@ -116,12 +116,12 @@ Make sure to:
 $ git pull
 ```
 
-frequently from the master branch. This assures that you will have the most recent working code from other people. 
+frequently from the master branch. This assures that you will have the most recent working code from other people.
 
 
 ## Meteor Website
 
-To use and make a meteor app website, first create an account on the [Galaxy website](https://galaxy.meteor.com/) After creating an account it will be costly to push any website onto galaxy so it's best to work with an organization that has limited slots but will be able to push your website for free. 
+To use and make a meteor app website, first create an account on the [Galaxy website](https://galaxy.meteor.com/) After creating an account it will be costly to push any website onto galaxy so it's best to work with an organization that has limited slots but will be able to push your website for free.
 
 For more instructions, please at [E54: Test deploy to Galaxy](http://courses.ics.hawaii.edu/ics314s17/morea/deployment/experience-test-deployment.html)
 
@@ -167,7 +167,7 @@ private/
 
 public/          
   images/        # holds static images for the website
-  
+
 server/
    main.js       # import all the server-side js files.
 ```
@@ -203,10 +203,10 @@ import '/imports/api/interest';
 
 Apart from the last line that imports style.css directly, the other lines all invoke the index.js file in the specified directory.
 
-We use this approach to make it simpler to understand what code is loaded and in what order, and to simplify debugging when some code or templates do not appear to be loaded.  In our approach, there are only two places to look for top-level imports: the main.js files in client/ and server/, and the index.js files in import subdirectories. In those subdirectories, they usually will contain any html, CSS and JavaScript files that the subdirectories will use. 
+We use this approach to make it simpler to understand what code is loaded and in what order, and to simplify debugging when some code or templates do not appear to be loaded.  In our approach, there are only two places to look for top-level imports: the main.js files in client/ and server/, and the index.js files in import subdirectories. In those subdirectories, they usually will contain any html, CSS and JavaScript files that the subdirectories will use.
 
-Note that this two-level import structure ensures that all code and templates are loaded, but does not ensure that the symbols needed in each file are accessible.  So, for example, a symbol bound to a collection still needs to be imported into any file that references it. 
- 
+Note that this two-level import structure ensures that all code and templates are loaded, but does not ensure that the symbols needed in each file are accessible.  So, for example, a symbol bound to a collection still needs to be imported into any file that references it.
+
 ## Naming conventions
 
 This system adopts the following naming conventions:
@@ -219,15 +219,15 @@ This system adopts the following naming conventions:
 
 ## Data model
 
-The Manoa-Rdies data model is implemented by mainly using a Javascript class: [ProfileCollection](https://github.com/manoa-rides/manoa-rides/tree/master/app/imports/api/profile) this class encapsulates a MongoDB collection with the same name and export a single variable Profiles that provides access to that collection. 
+The Manoa-Rdies data model is implemented by mainly using a Javascript class: [ProfileCollection](https://github.com/manoa-rides/manoa-rides/tree/master/app/imports/api/profile) this class encapsulates a MongoDB collection with the same name and export a single variable Profiles that provides access to that collection.
 
 ## CSS
 
 The application uses the [Semantic UI](http://semantic-ui.com/) CSS framework. To learn more about the Semantic UI theme integration with Meteor, see [Semantic-UI-Meteor](https://github.com/Semantic-Org/Semantic-UI-Meteor).
 
-The Semantic UI theme files are in [app/client/lib/semantic-ui](https://github.com/ics-software-engineering/meteor-application-template/tree/master/app/client/lib/semantic-ui) directory. Because they are in the client/ directory and not the imports/ directory, they do not need to be explicitly imported to be loaded. (Meteor automatically loads all files into the client that are in the client/ directory). 
+The Semantic UI theme files are in [app/client/lib/semantic-ui](https://github.com/ics-software-engineering/meteor-application-template/tree/master/app/client/lib/semantic-ui) directory. Because they are in the client/ directory and not the imports/ directory, they do not need to be explicitly imported to be loaded. (Meteor automatically loads all files into the client that are in the client/ directory).
 
-Note that the user pages contain a menu fixed to the top of the page, and thus the body element needs to have padding attached to it.  However, the landing page does not have a menu, and thus no padding should be attached to the body element on that page. To accomplish this, the [router](https://github.com/manoa-rides/manoa-rides/blob/master/app/imports/startup/client/router.js) uses "triggers" to add a remove the appropriate classes from the body element when a page is visited and then left by the user. 
+Note that the user pages contain a menu fixed to the top of the page, and thus the body element needs to have padding attached to it.  However, the landing page does not have a menu, and thus no padding should be attached to the body element on that page. To accomplish this, the [router](https://github.com/manoa-rides/manoa-rides/blob/master/app/imports/startup/client/router.js) uses "triggers" to add a remove the appropriate classes from the body element when a page is visited and then left by the user.
 
 List of some of the Semantic UI used in this project:
 -Images
@@ -254,9 +254,9 @@ Manoa Rides defines the following routes:
 
 For authentication, the application uses the University of Hawaii CAS test server, and follows the approach shown in [meteor-example-uh-cas](http://ics-software-engineering.github.io/meteor-example-uh-cas/).
 
-When the application is run, the CAS configuration information must be present in a configuration file such as [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-template/blob/master/config/settings.development.json). 
+When the application is run, the CAS configuration information must be present in a configuration file such as [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-template/blob/master/config/settings.development.json).
 
-Anyone with a UH account can login and use Manoa Rides to create a portfolio. The user will then create their own profile and image (and car image) to gain further access. 
+Anyone with a UH account can login and use Manoa Rides to create a portfolio. The user will then create their own profile and image (and car image) to gain further access.
 
 ## Authorization
 
@@ -264,7 +264,7 @@ The landing and directory pages are public; anyone can access those pages.
 
 The profile and filter pages require authorization: you must be logged in (i.e. authenticated) through the UH test CAS server, and the authenticated username returned by CAS must match the username specified in the URL.  So, for example, only the authenticated user `johnson` can access the pages `http://localhost:3000/johnson/profile` and `http://localhost:3000/johnson/filter`.
 
-To prevent people from accessing pages they are not authorized to visit, template-based authorization is used following the recommendations in [Implementing Auth Logic and Permissions](https://kadira.io/academy/meteor-routing-guide/content/implementing-auth-logic-and-permissions). 
+To prevent people from accessing pages they are not authorized to visit, template-based authorization is used following the recommendations in [Implementing Auth Logic and Permissions](https://kadira.io/academy/meteor-routing-guide/content/implementing-auth-logic-and-permissions).
 
 The application implements template-based authorization using an If_Authorized template, defined in [If_Authorized.html](https://github.com/manoa-rides/manoa-rides/blob/master/app/imports/ui/layouts/user/if-authorized.html) and [If_Authorized.js](https://github.com/manoa-rides/manoa-rides/blob/master/app/imports/ui/layouts/user/if-authorized.js).
 
@@ -347,21 +347,25 @@ This milestone started on November 23, 2017 and ended on December 13, 2017.
 
 For Milestone 2 the goal was to take the page that we created in Milestone 1 and implement the fundamental functionality.
 
-Four pages were implemented during M2:
+Five pages were implemented during M2:
 
-### Implemented Landing Page 
+### Implemented Landing Page
 
 <img width="400px" src="https://i.imgur.com/0EDOxGI.png"/>
 
-### Implemented Schedule Page 
+### Implemented Home Page
 
-<img width="400px" src="images/schedule-m2.png"/>
+<img width="400px" src="images/home-page-m2.png"/>
+
+### Implemented Schedule Page
+
+<img width="400px" src="images/schedule-page-m2.png"/>
 
 ### Implemented Profile Page
 
-<img width="400px" src="images/profile-m2.png"/>
+<img width="400px" src="images/profile-page-m2.png"/>
 
-### Implemented Filter Page 
+### Implemented Filter Page
 
 <img width="400px" src="images/filterpage-m2.png"/>
 
@@ -377,11 +381,11 @@ Each issue was implemented in its own branch (unless it took less than 20 minute
 
 # Community Feedback
 
-After asking some of our friends, all outside of the computer science field to try out our app we came away with seven main points. 
-1.	All of them were not aware the UH had a carpooling system or application in place. 
-2.	Six out of the ten people asked used their own vehicle to drive to school. The other four used the bus. 
-3.	Most people both departed to school and returned home on a very regular weekly schedule. 
-4.	Motivations for potentially using the carpooling system were, in order, reducing transit time, reducing transit cost, and reducing pollution. 
-5.	When asked how they would carpool if they hadn’t known about app most said asking around. 
-6.	When asked if they would use our app for carpooling all of them said they would use our application only if it had a significant number of users. Their main concern was actually finding a viable rider or driver. 
-7.	Overall, the people who drove to school felt there was more incentive to be a rider than a driver. Most indicated that some sort of monetary compenstation was appealing. Though a couple drivers mentioned that they didn't want to make profit, but rather offset a portion of gas and parking costs. 
+After asking some of our friends, all outside of the computer science field to try out our app we came away with seven main points.
+1.	All of them were not aware the UH had a carpooling system or application in place.
+2.	Six out of the ten people asked used their own vehicle to drive to school. The other four used the bus.
+3.	Most people both departed to school and returned home on a very regular weekly schedule.
+4.	Motivations for potentially using the carpooling system were, in order, reducing transit time, reducing transit cost, and reducing pollution.
+5.	When asked how they would carpool if they hadn’t known about app most said asking around.
+6.	When asked if they would use our app for carpooling all of them said they would use our application only if it had a significant number of users. Their main concern was actually finding a viable rider or driver.
+7.	Overall, the people who drove to school felt there was more incentive to be a rider than a driver. Most indicated that some sort of monetary compenstation was appealing. Though a couple drivers mentioned that they didn't want to make profit, but rather offset a portion of gas and parking costs.

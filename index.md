@@ -37,7 +37,7 @@ Carpooling solves two problems, driving a personal vehicle is expensive, parking
 
 # User Guide
 
-To sign up for a new account or login to an exisiting account click on the login button and enter your University of Hawaii login information.
+To sign up for a new account or login to an existing account click on the login button and enter your University of Hawaii login information.
 
 <img width="800px" src="https://i.imgur.com/0EDOxGI.png"/>
 

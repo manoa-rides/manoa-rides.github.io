@@ -30,34 +30,10 @@ Check out our [GitHub](https://github.com/manoa-rides/manoa-rides/)
 * [Community Feedback](#community-feedback)
 
 
-# About Manoa Rides
+# Overview of Manoa Rides
 
-## What's Manoa Carpool all about?
-### Carpooling solves two problems
-
-Commuting is expensive and parking is rare. With Manoa Carpool everybody wins.
-
-### Get there quicker with the carpool lane
-
-With fewer cars clogging the roads and the HOV lane, we all get there faster.
-
-### Make connections
-
-Make friends while you travel.
-
-
-## Enter Manoa Carpool
-### Connect with Drivers and Riders
-
-After creating a Manoa Carpool profile, search for Riders or Drivers in your vicinity commuting to the University of Hawaii
-
-### Filter to find the perfect riding companion
-
-Search the Manoa Carpool directory and filter individuals by interests, driving skill, distance, and classes.
-
-### Make connections
-
-Make friends while you travel.
+Manoa Rides is a carpooling application for the University of Hawaii community. Manoa Rides allows members of the University of Hawaii find both riders in search of a driver, and drivers in search of a rider and create their own carpooling solution.
+Carpooling solves two problems, driving a personal vehicle is expensive, parking is rare, and public transport is slow. With Manoa Rides both drivers can be compensated and riders can get to their destinations more conveniently. On top of that with fewer cars clogging the roads and the HOV lane, we all get there faster and you can make friends with other in the UH community while you travel.
 
 
 # Installation

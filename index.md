@@ -35,27 +35,6 @@ Check out our [GitHub](https://github.com/manoa-rides/manoa-rides/)
 Manoa Rides is a carpooling application for the University of Hawaii community. Manoa Rides allows members of the University of Hawaii find both riders in search of a driver, and drivers in search of a rider and create their own carpooling solution.
 Carpooling solves two problems, driving a personal vehicle is expensive, parking is rare, and public transport is slow. With Manoa Rides both drivers can be compensated and riders can get to their destinations more conveniently. On top of that with fewer cars clogging the roads and the HOV lane, we all get there faster and you can make friends with other in the UH community while you travel.
 
-
-# Installation
-
-First, [install Meteor](https://www.meteor.com/install).
-
-Second, [download a copy of Manoa-Rides](https://github.com/manoa-rides/manoa-rides/archive/master.zip), or clone the [repository](https://github.com/manoa-rides/manoa-rides/) using git.
-
-Third, cd into the app/ directory and install libraries with:
-
-```
-$ meteor npm install
-```
-
-Fourth, run the system with:
-
-```
-$ meteor npm run start
-```
-
-If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000). If you have an account on the UH test CAS server, you can login.  
-
 # User Guide
 
 To sign up for a new account or login to an exisiting account click on the login button and enter your University of Hawaii login information.
@@ -83,6 +62,25 @@ You can search for Riders and filter based on time they commute, their zip code.
 
 <img width="800px" src="https://i.imgur.com/FNRrEJp.png"/>
 
+# Installation
+
+First, [install Meteor](https://www.meteor.com/install).
+
+Second, [download a copy of Manoa-Rides](https://github.com/manoa-rides/manoa-rides/archive/master.zip), or clone the [repository](https://github.com/manoa-rides/manoa-rides/) using git.
+
+Third, cd into the app/ directory and install libraries with:
+
+```
+$ meteor npm install
+```
+
+Fourth, run the system with:
+
+```
+$ meteor npm run start
+```
+
+If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000). If you have an account on the UH test CAS server, you can login.  
 
 # Developer guide
 

@@ -101,11 +101,11 @@ You can view your complete profile and schedule on the Home Page where your publ
 To search for Drivers or Riders click on the Drivers or Riders tab. 
 You can search for Drivers and filter based on time they commute, their zip code, and the number of seats they have in their car.
 
-<img width="800px" src="https://i.imgur.com/FNRrEJp.png"/>
+<img width="800px" src="https://i.imgur.com/6KnoAsZ.png"/>
 
 You can search for Riders and filter based on time they commute, their zip code.
 
-<img width="800px" src="https://i.imgur.com/6KnoAsZ.png"/>
+<img width="800px" src="https://i.imgur.com/FNRrEJp.png"/>
 
 
 # Developer guide

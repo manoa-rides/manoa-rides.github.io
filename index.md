@@ -32,7 +32,7 @@ Check out our [GitHub](https://github.com/manoa-rides/manoa-rides/)
 
 # Overview of Manoa Rides
 
-Manoa Rides is a carpooling application for the University of Hawaii community. Manoa Rides enables members of the University of Hawaii to tp pair drivers in search for riders, or riders in search of a driver, and create their own carpooling solutions.
+Manoa Rides is a carpooling application for the University of Hawaii community. Manoa Rides enables members of the University of Hawaii to pair drivers in search for riders, or riders in search of a driver, and create their own carpooling solutions.
 
 Carpooling solves two problems, many people have difficult getting to and from campus and others who do drive would simply enjoy the convinence of carpooling benefits such as parking, HOV lanes, or maybe a snack from a gracious passenger.
 
